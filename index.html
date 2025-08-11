@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
+    <link rel="stylesheet" href="sheet.css">
+</head>
+
+<body>
+    <div class="user">
+        <img src="avataar.jpg" alt="" class="user_image">
+
+    </div>
+    <header>
+        <div class="menu_side">
+            <h1>Playlist</h1>
+            <div class="playlist">
+                <h4 class="active"><span></span><i class="fa-solid fa-music"></i>Playlist</h4>
+                <h4 class="active"><i class="fa-solid fa-music"></i>Last Listening</h4>
+                <h4 class="active"><i class="fa-solid fa-music"></i>Recommended</h4>
+
+            </div>
+            <div class="menu_song">
+                <li class="songitem">
+                    <span>1</span>
+                    <img src="Alan_Walker_-_On_My_Way.png" alt="">
+                    <h5>On My Way <br>
+                        
+                    </h5>
+                    <i class="fa-solid fa-play" id="1"></i>
+                </li>
+                <li class="songitem">
+                    <span>2</span>
+                    <img src="IMG-20250730-WA0001.jpg" alt="">
+                    <h5>Happy Birthday <br>
+                       
+                    </h5>
+                    <i class="fa-solid fa-play" id="2"></i>
+                </li>
+                <li class="songitem">
+                    <span>3</span>
+                    <img src="IMG-20250730-WA0002.jpg" alt="">
+                    <h5>7 Years<br>
+                        
+                    </h5>
+                    <i class="fa-solid fa-play" id="3"></i>
+                </li>
+                <li class="songitem">
+                    <span>4</span>
+                    <img src="IMG-20250730-WA0003.jpg" alt="">
+                    <h5>Jean Drop<br>
+                        
+                    </h5>
+                    <i class="fa-solid fa-play" id="4"></i>
+                </li>
+                <li class="songitem">
+                    <span>5</span>
+                    <img src="IMG-20250730-WA0004.jpg" alt="">
+                    <h5>We fell in love
+                        
+                    </h5>
+                    <i class="fa-solid fa-play" id="5"></i>
+                </li>
+                <li class="songitem">
+                    <span>6</span>
+                    <img src="IMG-20250730-WA0005.jpg" alt="">
+                    <h5>Memories
+                    </h5>
+                    <i class="fa-solid fa-play" id="6"></i>
+                </li>
+                <li class="songitem">
+                    <span>7</span>
+                    <img src="IMG-20250730-WA0006.jpg" alt="">
+                    <h5>Brrr Brrr<br>
+                       
+                    </h5>
+                    <i class="fa-solid fa-play" id="6"></i>
+                </li>
+                <li class="songitem">
+                    <span>8</span>
+                    <img src="IMG-20250730-WA0008.jpg" alt="">
+                    <h5>On My Way <br>
+                       
+                    </h5>
+                    <i class="fa-solid fa-play" id="8"></i>
+                </li>
+                <li class="songitem">
+                    <span>9</span>
+                    <img src="IMG-20250730-WA0009.jpg" alt="">
+                    <h5>Tere Bin<br>
+                       
+                    </h5>
+                    <i class="fa-solid fa-play" id="9"></i>
+                </li>
+                <li class="songitem">
+                    <span>10</span>
+                    <img src="IMG-20250730-WA0010.jpg" alt="">
+                    <h5>You Are Thunder<br>
+                        
+                    </h5>
+                    <i class="fa-solid fa-play" id="10"></i>
+                </li>
+
+
+            </div>
+        </div>
+        <div class="song_side">
+            <nav>
+                <div class="search">
+                    <i class="fa-solid fa-magnifying-glass"></i><input type="text" placeholder="Search Music">
+                </div>
+                <ul>
+                    <li>EXPLORE <span></span>
+                    </li>
+                    <li>MY LIBRARY <span></span></li>
+                    <li>RADIO <span></span></li>
+                </ul>
+            </nav>
+            <div class="content">
+                <h1>Lata Mangeshkar</h1>
+                <img src="lata mangehskar.jpg" alt="">
+                <p>The voice of Lata Mangeshkar echoes through generations —<br> a timeless melody of India’s soul.</p>
+                <div class="button">
+                    <button>PLAY</button>
+                    <button>FOLLOW</button>
+                </div>
+            </div>
+            <div class="popular_song">
+                <div class="h4">
+                    <h4>Popular Artists</h4>
+                    <div class="btn_s">
+                        <i class="fa-solid fa-arrow-left" id="artistLeft"></i>
+                        <i class="fa-solid fa-arrow-right" id="artistRight"></i>
+                    </div>
+                </div>
+                <ul class="items" id="artistScroll">
+                    <li><img src="arjit singh.jpg" height="60"></li>
+                    <li><img src="armaan malik.jpg" height="60"></li>
+                    <li><img src="lady gaga.jpg" height="60"></li>
+                    <li><img src="ed sheran.jpg" height="60"></li>
+                    <li><img src="shreya ghoshal.jpg" height="60"></li>
+                    <li><img src="lata mangehskar.jpg" height="60"></li>
+                    <li><img src="taylor swift.jpg" height="60"></li>
+                    <li><img src="bruno mars.jpg" height="60"></li>
+                    <li><img src="tulsi.jpg" height="60px"></li>
+                    <li><img src="sonunigam.jpg" height="60"></li>
+                    <li><img src="justin.jpg" height="60"></li>
+                    <li><img src="asees.jpeg" height="60"></li>
+                    <li><img src="coldplay.jpg" height="60"></li>
+                    <li><img src="arf rahmna.jpg" height="60"></li>
+                    <li><img src="sunishi.jpg" height="60"></li>
+                    <li><img src="diljit.jpg" height="60"></li>
+                    <li><img src="dua.jpg" height="60"></li>
+
+                </ul>
+            </div>
+
+            <div class="popular_artist">
+                <div class="h4">
+                    <h4>Popular Songs</h4>
+                    <div class="btn_s">
+                        <i class="fa-solid fa-arrow-left" id="songLeft"></i>
+                        <i class="fa-solid fa-arrow-right" id="songRight"></i>
+                    </div>
+                </div>
+                <ul class="pop_song" id="songScroll">
+                    <li class="songitem">
+                        <div class="img_play">
+                            <img src="sapphire.jpg" alt="">
+                            <i class="fa-solid fa-play"></i>
+                        </div>
+                        <h5>Sapphire<div class="subtitle">Ed Sheran</div>
+                        </h5>
+                    </li>
+                    <li class="songitem">
+                        <div class="img_play">
+                            <img src="saiyyaan.jpg" alt="">
+                            <i class="fa-solid fa-play"></i>
+                        </div>
+                        <h5>Saiyyan<div class="subtitle">Kailash Kher</div>
+                        </h5>
+                    </li>
+                    <li class="songitem">
+                        <div class="img_play">
+                            <img src="despacito.webp" alt="">
+                            <i class="fa-solid fa-play"></i>
+                        </div>
+                        <h5>Despacito<div class="subtitle">Luis Fonsi</div>
+                        </h5>
+                    </li>
+                    <li class="songitem">
+                        <div class="img_play">
+                            <img src="naatu.jpg" alt="">
+                            <i class="fa-solid fa-play"></i>
+                        </div>
+                        <h5>Naatu Naatu<div class="subtitle">Kala Bhairav & Rahul Sipligunj</div>
+                        </h5>
+                    </li>
+                    <li class="songitem">
+                        <div class="img_play">
+                            <img src="ghungrro.jpg" alt="">
+                            <i class="fa-solid fa-play"></i>
+                        </div>
+                        <h5>Ghungroo<div class="subtitle">Arijit Singh & Shilpa Rao</div>
+                        </h5>
+                    </li>
+                    <li class="songitem">
+                        <div class="img_play">
+                            <img src="locha e ulfta.png" alt="">
+                            <i class="fa-solid fa-play"></i>
+                        </div>
+                        <h5> Locha-E-Ulfat<div class="subtitle">Benny Dayal</div>
+                        </h5>
+                    </li>
+                    <li class="songitem">
+                        <div class="img_play">
+                            <img src="tum hi bandhu.jpg" alt="">
+                            <i class="fa-solid fa-play"></i>
+                        </div>
+                        <h5>Tum Hi Ho Bandhu<div class="subtitle">Neeraj Shridhar & Kavita Seth</div>
+                        </h5>
+                    </li>
+                    <li class="songitem">
+                        <div class="img_play">
+                            <img src="nadaan parindey.png" alt="">
+                            <i class="fa-solid fa-play"></i>
+                        </div>
+                        <h5>Naadan Parindey
+                            <div class="subtitle">Mohit Chauhan</div>
+                        </h5>
+                    </li>
+                    <li class="songitem">
+                        <div class="img_play">
+                            <img src="mera bhola.jpg" alt="">
+                            <i class="fa-solid fa-play"></i>
+                        </div>
+                        <h5>Mera Bhola Hai Bhandari<div class="subtitle">Hansraj Raghuwanshi</div>
+                        </h5>
+                    </li>
+                    <li class="songitem">
+                        <div class="img_play">
+                            <img src="iktara.jpg" alt="">
+                            <i class="fa-solid fa-play"></i>
+                        </div>
+                        <h5>Iktara<div class="subtitle">Amitabh Bhattacharya & Kavita Seth</div>
+                        </h5>
+                    </li>
+                    <li class="songitem">
+                        <div class="img_play">
+                            <img src="heer asmani.jpg" alt="">
+                            <i class="fa-solid fa-play"></i>
+                        </div>
+                        <h5>Heer Aasmani<div class="subtitle">B Praak</div>
+                        </h5>
+                    </li>
+
+
+                </ul>
+            </div>
+        </div>
+
+
+        <div class="master_play">
+            <div class="wave">
+                <div class="wave1"></div>
+                <div class="wave1"></div>
+                <div class="wave1"></div>
+            </div>
+            <img src="vande mataram.png" alt="" id="poster_master_play">
+            <h5 id="title"> Vande Mataram
+                <div class="subtitle">Album - Vande Mataram</div>
+            </h5>
+            <div class="icons">
+                <i class="fa-solid fa-heart"></i>
+
+                <i class="fa-solid fa-backward-step"></i>
+                <i class="fa-solid fa-play"></i>
+                <i class="fa-solid fa-forward-step"></i>
+
+                <span id="current-track">00:00</span>
+                <div class="bar">
+                    <input type="range" id="seek" min="0" max="100" value="0">
+                    <div class="bar2" id="bar2"></div>
+                    <div class="dot"></div>
+                </div>
+                <span id="current-end">00:60</span>
+                <div class="vol">
+                    <i class="fa-solid fa-volume-high"></i>
+                    <div class="vol_range_wrap">
+                        <input type="range" id="vol" min="0" max="100" value="100">
+                        <div class="vol_bar"></div>
+                        <div class="dot" id="vol_dot"></div>
+                    </div>
+                </div>
+
+                <div class="right-controls">
+                    <i class="fa-solid fa-random"></i>
+                    <i class="fa-solid fa-repeat"></i>
+
+                    <div class="more-options-container">
+                        <i class="fa-solid fa-ellipsis" id="more-btn"></i>
+
+                        <div class="popup-menu" id="popup-menu">
+                            <div class="popup-item"><i class="fa-solid fa-share"></i> Share</div>
+                            <div class="popup-item"><i class="fa-solid fa-download"></i> Download</div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+
+
+        </div>
+
+
+
+
+
+    </header>
+    <script src="script.js"> </script>
+
+
+
+</body>
+
+</html>
